@@ -4,32 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>On OFF Bulb</title>
-</head>
-<body>
     <style>
         div img {
             width: 200px;
             background-size: cover;
         }
+        .imes {
+            height: 30px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .cl {
+            background-color: red;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+        }
+        .second {
+            display: flex;
+            align-items: center;
+        }
     </style>
- 
+</head>
+<body>
+    <!-- 1. Light Bulb Experiment -->
+    <h1>1. Light Bulb Experiment</h1>
     <h1>ON OFF BULB</h1>
     <div> 
-        <img id='Icon' src="image/off.png" alt="" width="200px" >
-        <button id='Btn'></button>
+        <img id='Icon' src="image/off.png" alt="Light Bulb" width="200px">
+        <button id='Btn'>ON</button>
     </div>
-       <script>
-        var Icon = document.getElementById('Icon');
-        var btn = document.getElementById('Btn');
-        btn.onclick = function() {
-            if(Icon.src.includes("image/off.png")){
-                Icon.src = "image/on.png";
-                btn.innerHTML = "OFF"
-            }else{
-                Icon.src="image/off.png";
-                btn.innerHTML = "ON"
-            }
-        }
-    </script>
+
+    <!-- 2. Traffic Light Simulator -->
+    <h1>2. Traffic Light Simulator</h1>
+    <input type="text" class="imes" placeholder="Enter traffic color ">
+    <button onclick="sub()">Search</button>
+    <!--NO#3 -->
+    <!-- 3. Water Temperature Checker -->
+     <h1>3. Water Temperature Checker</h1>
+    <div class="third">
+        <input type="text" placeholder="Enter Temperature" id="inputmes" class="inputmes"><button onclick="Tem()">click me</button>
+    </div> 
+    <!-- NO#4 -->
+    <!-- 4. Rock-Paper-Scissors Game -->
+     <h1>4. Rock-Paper-Scissors Game</h1>
+     <button onclick="final()">click me</button>
+     <!-- NO#5 -->
+    <h1>5. Simple Alarm System</h1>
+    <button onclick="Alarm()">click me</button>
+    <!-- NO#6 -->
+    <!-- 6. Simple Temperature Conversion -->
+     <h1>6.Simple Temperature Conversion</h1>
+     <button id="Btn" onclick=" convertTemperature()">click</button>
+
+     <!-- NO#7 -->
+     <!-- 7. Password Strength Checker -->
+      <h1>7.Password Strength Checker</h1>
+      <input type="text" id="Pstrenght">
+      <button onclick="pstr()">search</button>
+      <p id="pt"></p>
+      <!-- NO#8 -->
+      <!-- 8. Coin Toss Simulator -->
+       <H1>8. Coin Toss Simulator</H1>
+       <button onclick="Coin()">start</button>
+   <script src="script.js"></script>
+        
 </body>
 </html>
