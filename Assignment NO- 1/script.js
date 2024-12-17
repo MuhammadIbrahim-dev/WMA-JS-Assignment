@@ -173,3 +173,94 @@ function Coin() {
         alert("you win")
     }
 }}
+// NO#9
+// 9. Weather Suggestion Experiment
+function weather() {
+    let w = prompt("Enter your weather (sunny, rainy, cold)");
+    if (w === "sunny") {
+        console.log("Wear sunglasses");
+        alert("Wear sunglasses");
+    } else if ( w === "rainy") {
+        console.log("Take an umbrella");
+     alert("Take an umbrella");
+    } else if (w === "cold") {
+        console.log("Wear a jacket");
+    alert("Wear a jacket");
+    } else {
+        alert("please enter invalid weather");
+        alert("please enter invalid weather");
+    }
+}
+// NO#10
+// 10. Simple Arithmetic Quiz
+function Quiz() {
+    const num1 = Math.floor(Math.random() * 10) + 1;
+    const num2 = Math.floor(Math.random() * 10) + 1;
+
+    const operators = ['+', '-', '*', '/'];
+    const operator = operators[Math.floor(Math.random() * operators.length)];
+
+
+    let correctAnswer;
+    if (operator === '+') {
+        correctAnswer = num1 + num2;
+    } else if (operator === '-') {
+        correctAnswer = num1 - num2;
+    } else if (operator === '*') {
+        correctAnswer = num1 * num2;
+    } else if (operator === '/') {
+    
+        correctAnswer = (num1 / num2).toFixed(2); 
+    }
+    const userAnswer = prompt(`What is ${num1} ${operator} ${num2}?`);
+
+    if (userAnswer === null) {
+        document.getElementById("result").innerText = "Quiz cancelled.";
+        return;
+    }
+
+    if (parseFloat(userAnswer) === parseFloat(correctAnswer)) {
+        document.getElementById("result").innerText = "Correct!";
+        console.log( "Correct!");
+        
+    } else {
+        document.getElementById("result").innerText = "Try Again!";
+        console.log("Try Again!");
+        
+    }
+}
+// NO#11
+// 11. Eligibility for Voting 
+function Eligible() {
+    let age = parseInt(prompt("Enter your age"));
+    if (age >= 18) {
+        alert("You are eligible to vote");
+        console.log("You are eligible to vote");
+        
+    } else {
+        alert("You are not eligible to vote");
+        console.log("You are not eligible to vote");
+    }
+}
+// NO#12
+// 12. Maximum of Two Numbers
+function number() {
+    let Largest ;
+    let num1 = parseInt(prompt("Enter the first number"));
+    let num2 = parseInt(prompt("Enter the second number"));
+    if ( num1 == NaN || num2 == NaN) {
+        alert("your number is not invalid")
+        console.log( " please enter valid number ");
+    } else {    if (num1 > num2) {
+        Largest = num1;
+    } else if (num2 > num1) {
+        largest = num2;
+    } else {
+        alert("your number is equal")
+        console.log("your number is equal");
+        
+    }
+    alert(`your largest number is ${largest}`)
+}
+
+}
