@@ -1,4 +1,4 @@
-# WAMA ASSGNMENT 
+# WMA ASSGNMENT 
 ## Assignment # 1 
 # see aassignment
 [ibrahim-217-WMA-A-NO1.surge.sh\]](https://ibrahim-217-wma-a-no1.surge.sh/)
