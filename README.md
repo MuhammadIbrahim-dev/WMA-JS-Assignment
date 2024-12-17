@@ -1,5 +1,8 @@
 # WAMA ASSGNMENT 
 ## Assignment # 1 
+# see aassignment
+![assignment](ibrahim-217-WMA-A-NO1.surge.sh)
+
 Assignment
 1. Light Bulb Experiment
 Objective: Simulate a light bulb's on/off state.
