@@ -15,7 +15,7 @@ linkdin
 https://www.linkedin.com/in/muhammad-ibrahim-profile/
 <br/>
 Youtube
-https://www.youtube.com/ibrahim-developer
+https://www.youtube.com/@ibrahimdeveloper
 <br/>
 tiktok
 https://www.tiktok.com/@ibrahimdeveloperofficial
