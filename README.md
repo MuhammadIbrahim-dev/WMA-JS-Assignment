@@ -2,8 +2,8 @@
 jvascript assignments
 social media links
 # social links
-github
-https://www.github.com/MuhammadIbrahim-dev
+[github](https://www.github.com/MuhammadIbrahim-dev)
+
 <br/>
 facebook
 https://www.facebook.com/Muhammadibrahimdev?mibextid=ZbWKwL
@@ -12,7 +12,7 @@ instagram
 https://www.instagram.com/ibrahim_dev_/profilecard/?igsh=OW90aHI2eWxja2o4
 <br/>
 linkdin
-https://www.linkedin.com/in/muhammad-ibrahim-profile/
+https://www.linkedin.com/in/muhammad-ibrahim-dev/
 <br/>
 Youtube
 https://www.youtube.com/@ibrahimdeveloper
