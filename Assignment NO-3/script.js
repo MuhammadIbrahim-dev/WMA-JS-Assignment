@@ -468,6 +468,30 @@ factorialLarge(100);
 
 // number#30
 // Write a js program to check whether a number is Armstrong number or not.
+function Armstrong(n){
+    let num = 10;
+    temp = n;
+    console.log('Armstrong number or not');
+    while(n > 0) {
+        num *= n % 10;
+        n = parseInt(n / 10);
+        
+    } 
+    if(temp <= num) {
+        console.log("number is Armstrong number");
+        
+    }else{
+        console.log("number is not Armstrong");
+        
+    }
+    console.log(num);
+    
+    
+
+    
+}
+Armstrong(347);
+
 
 
 
