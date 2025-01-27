@@ -89,9 +89,49 @@ let countn= 'ibrahim217';
 console.log(countn.length);
 
 // num # 9
-// let input = 'ibrahim247';
-// let result = input;
-// console.log(result);
+function rstr(str) {
+    return str.split('').reverse().join('')
+}
+console.log(rstr("hello"));
+
+// num # 10
+// first occurrence of a character in a given string.
+console.log("num#10");
+
+function palederom(str) {
+    const rever =str.split('').reverse().join('')
+    return str === rever
+}
+console.log(palederom("rer"));
+// num # 11
+// last occurrence of a character in a given string.
+console.log("num # 11");
+function occurrence(str,char) {
+    return str.indexOf(char)
+}
+console.log(occurrence("hello","l"));
+
+// num # 12
+// last occurrence of a character in a given string.
+console.log("num # 12");
+function lastocurrence(str,char) {
+    return str.lastIndexOf(char)
+}
+console.log(lastocurrence("hello","o"));
+
+// num # 13
+// count occurrences of a character in given string.
+console.log("num#13");
+
+function allacurrence(str,char) {
+    return str.split(char).length -1
+}
+console.log(allacurrence("hello","o"));
+// num # 14
+// find highest frequency character in a string.
+
+
+
 
 
 
