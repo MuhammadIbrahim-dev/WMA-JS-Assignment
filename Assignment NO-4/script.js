@@ -42,4 +42,70 @@ if(toggle  === toggle.toUpperCase()) {
     
 }
 
+// num # 6
+
+// function character(str) {
+//     const number = 0;
+//     const dig = 0;
+//     const spec = 0;
+
+//     for(char of str) {
+//         if(/[0-9]/.test(char)) {
+//             number++ 
+//         }else if(/[A-za-z]/.test(char)) {
+//             dig++
+//         }else {
+//            spec++
+//         }
+//    }
+
+// }
+// const input = 'ibra123@#!';
+// const  result = character(input);
+// console.log(`Numbers is: ${result.number}`);
+// console.log(`Digits is: ${result.dig}`);
+// console.log(`Special is ${result.spec}`);
+
+// num # 7
+console.log("num#7");
+
+function num(str){
+    let number= 0;
+    for(char of str) {
+        if(/[0-9]/.test(char)){
+            number++
+        }
+    }
+    return numberCount = number;
+}
+const inputn = 'ibra123@#!';
+const  numresult =num(inputn);
+console.log(numresult);
+
+// num# 8
+console.log("num# 8");
+
+let countn= 'ibrahim217';
+console.log(countn.length);
+
+// num # 9
+// let input = 'ibrahim247';
+// let result = input;
+// console.log(result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

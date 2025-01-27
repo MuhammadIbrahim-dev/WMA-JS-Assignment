@@ -40,4 +40,4 @@
 37. Write a js program to trim both leading and trailing white space characters from given string.
 38. Write a js program to remove all extra blank spaces from given string.
 
-```
+``` b  
