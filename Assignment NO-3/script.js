@@ -1,6 +1,5 @@
 // List of loop programming exercises
 // number#1
-// 1. Write a js program to print all natural numbers from 1 to n. - using while loop
 function Natural(n) {
 let i = 1;
 console.log("Natural numbers from 1 to");
@@ -15,7 +14,6 @@ while(i < n) {
 Natural(30);
 
 // number#2
-// 2. Write a js program to print all natural numbers in reverse (from n to 1). - using while loop
 function Reverse(n) {
     let i = n;
     console.log("Natural numbers in reverse from n to 1");
@@ -27,7 +25,7 @@ function Reverse(n) {
 Reverse(30);
 
 // number#3
-// 3. Write a js program to print all alphabets from a to z. - using while loop
+
 function Alphabets() {
     let i = 97;
     console.log("Alphabets from a to z");
@@ -40,7 +38,7 @@ function Alphabets() {
 Alphabets();
 
 // number#4
-// 4. Write a js program to print all even numbers between 1 to 100. - using while loop
+
 function Evennum() {
     let num = 1;
     console.log("Even numbers between 1 to 100");
@@ -54,7 +52,7 @@ function Evennum() {
 Evennum();
 
 // number#5
-// 5. Write a js program to print all odd number between 1 to 100. - using while loop
+
 function oddnum() {
     let num = 1;
     console.log("Odd numbers between 1 to 100");
@@ -70,7 +68,7 @@ oddnum();
 
 
 // number#6
-// 6. Write a js program to find sum of all natural numbers between 1 to n. - using while loop
+
 function SumNatural(n) {
     let num = 1;
     let sum = 0;
@@ -84,7 +82,7 @@ function SumNatural(n) {
 SumNatural(100);
 
 // number#7
-// 7. Write a js program to find sum of all even numbers between 1 to n. - using while loop
+
 function SumEven(n){
     let num = 1;
     let sum = 0;
@@ -100,7 +98,7 @@ function SumEven(n){
 SumEven(100);
 
 // number#8
-// 8. Write a js program to find sum of all odd numbers between 1 to n. - using while loop
+
 
 function SumOdd(n) {
     let num = 1;
@@ -117,7 +115,7 @@ function SumOdd(n) {
 SumOdd(100);
 
 // number#9
-// 9. Write a js program to print multiplication table of any number. - using while loop
+
 function Multiplication(n) {
     let i = 1;
     console.log("Multiplication table of " + n);
@@ -129,7 +127,7 @@ function Multiplication(n) {
 Multiplication(8);
 
 // number#10
-// 10. Write a js program to count number of digits in a number. - using while loop
+
 function CountDigits(n) {
     let count = 0;
     console.log("Number of digits in a number");
@@ -143,7 +141,7 @@ function CountDigits(n) {
 CountDigits(123456789);
 
 // number#11
-// 11. Write a js program to find first and last digit of a number. - using while loop
+
 function FirstLast(n) {
     let last = n % 10;
     console.log("First and last digit of a number");
@@ -156,7 +154,6 @@ function FirstLast(n) {
 FirstLast(10234560897);
 
 // number#12
-// 12. Write a js program to find sum of first and last digit of a number. - using while loop
 function SumFirstLast(n) {
     let last = n % 10;
     console.log("Sum of first and last digit of a number");
@@ -169,7 +166,7 @@ function SumFirstLast(n) {
 SumFirstLast(10234560897);
 
 // number#13
-// 13. Write a js program to swap first and last digits of a number. - using while loop
+
 function SwapFirstLast(n) {
     let last = n % 10;
     let first = n;
@@ -195,7 +192,7 @@ function SwapFirstLast(n) {
 SwapFirstLast(3234560897);
 
 // number#14
-// 14. Write a js program to calculate the sum of digits of a number. - using while loop
+
 function numDigit(n) {
     let sum = 0;
     console.log("Sum of digits of a number");
@@ -209,7 +206,7 @@ function numDigit(n) {
 numDigit(54675488784151574874);
 
 // number#15
-// 15. Write a js program to calculate the product of digits of a number. - using while loop\
+
 
 function productDigit(n) {
     let product = 2;
@@ -224,24 +221,21 @@ function productDigit(n) {
 productDigit(23);
 
 // number#16
-// 16. Write a js program to enter a number and print its reverse. - using while loop
 
-function reverseDigit(n) {
-   let reverse = 0;
-   console.log("Reverse of a number");
-   while(n > 0) {
-    reverse = reverse * 10 + n % 10;
-    n = parseInt(n/10);
-   }
-   console.log(reverse);
-   
-   
-
+function Evennum() {
+    let num = 1;
+    console.log("Even numbers between 1 to 100");
+    while(num <= 100) {
+        if(num % 2 == 0) {
+            console.log(num);
+        }
+        num++;
+    }
 }
-reverseDigit(123456789);
+Evennum();
 
-// number#17
-// 17. Write a js program to check whether a number is palindrome or not. - using while loop
+// number#5
+
 function palindrome(n) {
     let reverse = 0;
     let temp = n;
@@ -259,7 +253,6 @@ if(temp == reverse) {
 palindrome(12321);
 
 // number#18
-// 18. Write a js program to find frequency of each digit in a given integer. - using while loop
 function frequencyDigit(n) {
     let freq = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
     console.log("Frequency of each digit in a given integer");
@@ -276,7 +269,6 @@ function frequencyDigit(n) {
 frequencyDigit(123456789);
 
 // number#19
-// 19. Write a js program to enter a number and print it in words. - using while loop
 function numToWords(n) {
     let words = ["Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"];
     console.log("Number in words");
@@ -288,7 +280,6 @@ function numToWords(n) {
 numToWords(1234567890);
 
 // number#20
-// 20. Write a js program to print all ASCII character with their values. - using while loop
 function asciiChar() {
     let i = 0;
     console.log("ASCII characters with their values");
@@ -301,7 +292,6 @@ asciiChar();
 
 
 // number#21
-// 21. Write a js program to find power of a number using for loop. - using while loop
 function powerOfNum(base, exp) {
     let result = 1;
     let i = 1;
@@ -315,7 +305,6 @@ function powerOfNum(base, exp) {
 powerOfNum(2, 4);
 
 // number#22
-// 22. Write a js program to calculate factorial of a number. - using while loop
 
 function factorial(n) {
     let fact = 1;
@@ -329,8 +318,6 @@ function factorial(n) {
 factorial(5);
 
 // number#23
-// 23. Write a js program to find HCF (GCD) of two numbers. - using while loop
-
 function hcf(a, b) {
     let hcf;
     console.log("HCF of two numbers");
@@ -347,7 +334,6 @@ function hcf(a, b) {
 hcf(15, 10);
 
 // number#24
-// 24. Write a js program to find LCM of two numbers. - using while loop
 function lcm(a, b) {
     let lcm;
     console.log("LCM of two numbers");
@@ -365,7 +351,6 @@ lcm(11, 15);
 
 // number#25
 
-// 25. Write a js program to check whether a number is Prime number or not. - using while loop
 function prime(n) {
     let flag = true;
     console.log("Prime number or not");
@@ -386,7 +371,6 @@ function prime(n) {
 prime(15);
 
 // number#26
-// 26. Write a js program to print all Prime numbers between 1 to n. - using while loop
 function primeNum(n) {
     console.log("Prime numbers between 1 to n");
     for(let i = 2; i <= n; i++) {
@@ -405,7 +389,7 @@ function primeNum(n) {
 primeNum(100);
 
 // number#27
-// 27. Write a js program to find sum of all prime numbers between 1 to n. - using while loop
+
 function sumPrime(n) {
     let sum = 0;
     console.log("Sum of all prime numbers between 1 to n");
@@ -430,7 +414,6 @@ sumPrime(100);
 
 // number#28    
 
-// 28. Write a js program to find all prime factors of a number. - using while loop
 function primeFactors(n) {
     console.log("Prime factors of a number");
     for(let i = 2; i <= n; i++) {
@@ -453,7 +436,6 @@ primeFactors(100);
 
 // number#29
 
-// 29.js program to find factorial of a large number. - using while loop
 function factorialLarge(n) {
     let fact = 1n;
     console.log("Factorial of a large number");
@@ -466,6 +448,7 @@ function factorialLarge(n) {
 
 factorialLarge(100);
 
+<<<<<<< HEAD
 // number#30
 // Write a js program to check whether a number is Armstrong number or not.
 function Armstrong(n){
@@ -492,6 +475,8 @@ function Armstrong(n){
 }
 Armstrong(347);
 
+=======
+>>>>>>> 961c48c8ae8164935ab317cad0222a7114bde598
 
 
 
