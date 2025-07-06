@@ -15,6 +15,25 @@ If-else exercise
 11. Write a js program to input week number and print week day.
 12. Write a js program to input month number and print number of days in that month.
 13. Write a js program to count total number of notes in given amount.
+```
+ function countamount(amounts) {
+    let notes = [1000,500,100,50,30,20,10];
+     let notecounts = {};
+     for (let note of notes)
+        if ( amounts > note) {
+             let count = Math.floor(amounts / note);
+            notecounts[note]=count;
+            amounts -= count * note;
+        } 
+          return(
+            notecounts
+        )
+        }
+ let amounts =123;
+ let result = countamount(amounts)
+ console.log(result);
+ countamount()
+```
 14. Write a js program to input angles of a triangle and check whether triangle is valid or not.
 15. Write a js program to input all sides of a triangle and check whether triangle is valid or not.
 16. Write a js program to check whether the triangle is equilateral, isosceles or scalene triangle.
